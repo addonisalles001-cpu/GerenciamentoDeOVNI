@@ -113,9 +113,10 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::GerenciamentoDeOVNI.Properties.Resources.human;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 34);
+            this.pictureBox1.Location = new System.Drawing.Point(31, 12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(194, 92);
+            this.pictureBox1.Size = new System.Drawing.Size(190, 129);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 8;
             this.pictureBox1.TabStop = false;
             // 
@@ -123,7 +124,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 452);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lblTitulo);
             this.Controls.Add(this.btnIniciar);
