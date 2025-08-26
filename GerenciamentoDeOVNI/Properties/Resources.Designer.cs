@@ -10,8 +10,9 @@
 
 namespace GerenciamentoDeOVNI.Properties {
     using System;
-    
-    
+    using System.Drawing;
+
+
     /// <summary>
     ///   Uma classe de recurso de tipo de alta segurança, para pesquisar cadeias de caracteres localizadas etc.
     /// </summary>
@@ -31,7 +32,9 @@ namespace GerenciamentoDeOVNI.Properties {
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
         internal Resources() {
         }
-        
+
+        public static Image hug { get; internal set; }
+
         /// <summary>
         ///   Retorna a instância de ResourceManager armazenada em cache usada por essa classe.
         /// </summary>
@@ -76,6 +79,16 @@ namespace GerenciamentoDeOVNI.Properties {
         internal static System.Drawing.Bitmap OVNI {
             get {
                 object obj = ResourceManager.GetObject("OVNI", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Terra {
+            get {
+                object obj = ResourceManager.GetObject("Terra", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
